@@ -939,7 +939,7 @@ Version: 1.0
     height: auto;
     width: auto;
     max-width: 100%;
-    
+
     display: block;
     text-align: center;
     vertical-align: middle;
@@ -2426,6 +2426,16 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 /* Small Devices, Tablets */
+@media only screen and (min-width: 480px) {
+  .content-3-10 .image-container {
+    height: 100%;
+  }
+
+  .content-3-10 .content {
+    margin-top: 0px;
+    padding: 80px 15px 80px 80px;
+  }
+}
 @media only screen and (min-width : 768px) {
 
 	.content-3-10 .image-container {
@@ -2472,12 +2482,12 @@ Version: 1.0
 }
 
 .content-3-11 .image-container .background-image-holder {
-	background: url('../images/low-poly-2.png') no-repeat center center;
-	-webkit-background-size: cover;
+	background: url('../images/low-poly-2.png') no-repeat right bottom;
+	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	height: 100%;
+	background-size: cover;*/
+  height: 100%;
 }
 
 .content-3-11 .content {

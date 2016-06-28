@@ -676,10 +676,10 @@ body
     margin-bottom: 15px !important;
 }
 
-.margin-bottom20
+/*.margin-bottom20
 {
     margin-bottom: 20px !important;
-}
+}*/
 
 
 .margin-bottom25
@@ -702,10 +702,10 @@ body
     margin-bottom: 60px !important;
 }
 
-.margin-bottom90
+/*.margin-bottom90
 {
     margin-bottom: 90px !important;
-}
+}*/
 
 .margin-top0
 {
@@ -869,7 +869,7 @@ body
 
 /** TYPOGRAPHY **/
 
-h1, h2, h3, 
+h1, h2, h3,
 , h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -1974,24 +1974,23 @@ fieldset[disabled] .form-control
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
-}
 
+
+
+}

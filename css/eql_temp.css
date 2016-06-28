@@ -3,7 +3,7 @@
 /* EQL Template_last updated 2016-06-22 */
 
 html, body {
-	font-family: 'Palanquin', sans-serif;
+	font-family: sans-serif;
 }
 
 
@@ -136,7 +136,7 @@ html, body {
 		display: inline-block;
 		margin-top: 14px;
 		padding: 8px 20px;
-		background: #E53FE4;
+		background: #f1513b;
 		letter-spacing: 2px;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -155,7 +155,7 @@ html, body {
 
 	.button:hover
 	{
-		background: #F1513B;
+		background: #c4382a;
 		color:#fff;
 	}
 
@@ -328,7 +328,6 @@ html, body {
 			color: #E55949;
 		}
     .apple {
-			color: #4A4A4A;
 			font-size: 18px;
 		}
 		.stonee {
@@ -340,4 +339,26 @@ html, body {
 		}
 		.mask h4 {
 			font-size: 30px;
+		}
+		.texthere {
+			padding: 10%;
+			text-align: center;
+		}
+		.airpolution {
+			padding-top: 70px;
+			font-size: 25px;
+			font-weight: bold;
+			color: #fff;
+			text-align: center;
+		}
+		.solution {
+			font-size: 16px;
+			color:#fff;
+			text-align: center;
+		}
+		.ledintro {
+			padding-top: 40px;
+		}
+		.ledintro p {
+			color:#c4382a;
 		}
