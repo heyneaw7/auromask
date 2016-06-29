@@ -14,6 +14,7 @@ html, body {
 	background:#333;
 	display:block;
 	width:100%;
+	z-index: 9999;
 }
 .navbar-inverse .navbar-toggle {
 	border:0 none;
@@ -324,6 +325,18 @@ html, body {
 		  }
 	  }
 
+
+		/* 產品介紹 */
+
+		.backgroundvi {
+			background: url(../images/bg_essencevi6.jpg);
+			height: 150px;
+			background-size:cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding: 30px 0;
+		}
+
 		.orangee {
 			color: #E55949;
 		}
@@ -551,9 +564,9 @@ html, body {
 
 /* FAQ-----------------------------------------------------------*/
 
-.col-md-4 price-block .book img {
-	max-height: 50px;
-}
+/*.book img{
+	margin-bottom: 80px;
+}*/
 .underlined-title .appicon {
 	padding-bottom: 20px;
 }
@@ -571,7 +584,7 @@ background-color: grey;
 background-image: url(../images/spec_bg.jpg);
 background-position: right bottom;;
 background-size: cover;
-padding-top: 100px;
+padding-top: 60px;
 padding-bottom: 100px;
 }
 
@@ -589,4 +602,49 @@ padding-bottom: 100px;
 .SPEC_BG th{
 font-weight: bolder;
 
+}
+
+
+.table td {
+	width: 40px;
+}
+.DOWNLOAD{
+  padding: 100px 0;
+
+}
+.col-md-3 .DOWNLOAD_BOX {
+	text-align: center;
+  display: block;
+	border: 2px solid #FFABAB;
+	border-radius: 4px;
+/*  margin: 30px 0px;*/
+/*border: 1px solid #00AEEF;*/
+  padding: 40px 15px 10px 15px ;
+	min-height: 550px;
+	margin-bottom: 20px;
+}
+.DOWNLOAD_BOX img{
+  margin: 0 auto;
+/*margin-top: 30px;
+margin-bottom: 20px;*/
+}
+.DOWNLOAD_BOX p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+}
+.DOWNLOAD_BOX h2{
+font-weight:bold;
+color: #f1513b;
+text-align: center;
+font-size: 30px;
+}
+/*.DOWNLOAD_BOX a{
+  margin: 0 auto;
+  text-align: center;
+}*/
+
+.book img {
+	margin-top: 20px;
+	padding-top: 20px;
 }

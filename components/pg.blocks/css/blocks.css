@@ -1651,6 +1651,7 @@ Version: 1.0
 .content-2-8 {
 	padding: 0px;
 	position: relative;
+  min-height: 600px;
 }
 
 .content-2-8 .image-container {
@@ -3478,7 +3479,7 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 .pricing-table-2 .tables-row {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .pricing-table-2 .price-block {
@@ -3489,14 +3490,18 @@ Version: 1.0
     border-radius: 4px;
 }
 
-.pricing-table-2 .price-block header {
-  border: 2px solid #FFABAB;
-  border-radius: 4px;
-	background: #ffffff;
-	text-align: center;
-	padding: 30px 50px 50px 50px;
-  /*box-sizing: min-height-500px;*/
-}
+
+  .pricing-table-2 .price-block header {
+    border: 2px solid #FFABAB;
+    border-radius: 4px;
+  	background: #ffffff;
+  	text-align: center;
+  	padding: 30px 50px 50px 50px;
+    /*box-sizing: min-height-500px;*/
+  }
+
+
+
 
 .pricing-table-2 .price-block h2 {
 	font-size: 20px;
@@ -3564,7 +3569,7 @@ Version: 1.0
 }
 
 .pricing-table-2 .col-4 .price-block header {
-	padding: 40px;
+	/*padding: 40px;*/
 }
 
 .pricing-table-2 .col-4 .price-block h2 {
@@ -3605,6 +3610,16 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 /* Small Devices, Tablets */
+@media only screen and (min-width : 480px){
+  .pricing-table-2 .price-block {
+  	max-width: 500px;
+  	margin: 0 auto 40px auto;
+  	-webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+  }
+}
+
 @media only screen and (min-width : 768px) {
 
 
