@@ -928,7 +928,7 @@ p
     /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     line-height: 1.6;
-    margin: 15px 0;
+    /*margin: 15px 0;*/
     color: #515157;
 }
 
@@ -1014,17 +1014,17 @@ ul.circle li:before
 
 .underlined-title h2
 {
-    font-size: 20px;
+    font-size: 37px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #95a5a6;
+    font-weight: inherit;;
+    color: inherit;;
 }
 
 .underlined-title hr
 {
     width: 10%;
     border-width: 2px;
-    border-color: #16a085;
+    border-color: #c4382a;
 }
 
 /* IMAGES */
@@ -1199,15 +1199,15 @@ p .btn
     text-shadow: none;
     border: none;
     text-transform: uppercase;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 25px;
 }
 
 .btn-outline:hover
 {
     text-decoration: none;
-    color: #ffffff;
+    color: #c4382a;
 }
 
 .btn-outline-sm
@@ -1239,8 +1239,8 @@ p .btn
 .btn-outline.outline-light:hover,
 .icon.outline-light:hover
 {
-    color: #2c3e50;
-    background: #ffffff;
+    color: #ffffff;
+    background: #c4382a;
 }
 
 .btn-outline.outline-dark,
