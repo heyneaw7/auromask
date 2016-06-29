@@ -2,8 +2,10 @@
 
 /* EQL Template_last updated 2016-06-22 */
 
+
+
 html, body {
-	font-family: sans-serif;
+	font-family: 'Noto Sans TC' , sans-serif;
 }
 
 
@@ -619,7 +621,7 @@ font-weight: bolder;
 	border-radius: 4px;
 /*  margin: 30px 0px;*/
 /*border: 1px solid #00AEEF;*/
-  padding: 40px 15px 10px 15px ;
+  padding: 40px 10px 10px 10px ;
 	min-height: 550px;
 	margin-bottom: 20px;
 }
@@ -634,8 +636,8 @@ margin-bottom: 20px;*/
   line-height: 30px;
 }
 .DOWNLOAD_BOX h2{
-font-weight:bold;
-color: #f1513b;
+font-weight: 500;
+color: #4a4a4a;
 text-align: center;
 font-size: 30px;
 }
